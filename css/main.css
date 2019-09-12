@@ -1,1 +1,7 @@
-<link href="https://fonts.googleapis.com/css?family=Noto+Sans|Noto+Sans+JP&display=swap" rel="stylesheet">
+html {
+  font-family: 'Noto Sans', sans-serif;
+}
+
+.font-jp {
+  font-family: "Noto Sans Japanese", sans-serif;
+}
