@@ -57,3 +57,20 @@ footer {
   border-right: 0;
   border-left: 0;
 }
+
+@media only screen and (min-width: 60em) {
+
+  .symbolism-image {
+    text-align: left;
+  }
+
+  .symbolism-text {
+    text-align: right;
+  }
+
+  .navigation {
+    text-align: right;
+    margin-bottom: 0;
+  }
+
+}
