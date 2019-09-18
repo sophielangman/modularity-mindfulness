@@ -11,22 +11,26 @@
   <link href="https://fonts.googleapis.com/css?family=Noto+Sans|Noto+Sans+JP:400,500,700&display=swap" rel="stylesheet">
 </head>
 <body>
-  <main>
 
-    <header>
-      <h1>枯山水</h1>
-      <p>Rock Gardens</p>
-      <nav>
-        <ul>
-          <li><a href="#">Viewing</a></li>
-          <li><a href="#">Gravel</a></li>
-          <li><a href="#">Symbolism</a></li>
-        </ul>
-      </nav>
-      <img src="images/banner.svg" alt="">
-      <hr>
-    </header>
+  <header role="banner" class="grid text-center">
+    <div class="unit xs-1 s-1 m-1 l-1-4 island-1-2">
+      <i lang="ja" class="push-0 bold yotta">枯山水</i>
+      <h1 class="push-0 bold kilo pad-1-2 pad-b-1-4">Rock Gardens</h1>
+    </div>
+    <nav>
+      <ul class="list-group list-group-inline push-1-2">
+        <li class="island-1-4"><a class="nav mega pad-b-1-8" href="#viewing">Viewing</a></li>
+        <li class="island-1-4"><a class="nav mega pad-b-1-8" href="#gravel">Gravel</a></li>
+        <li class="island-1-4"><a class="nav mega pad-b-1-8" href="#symbolism">Symbolism</a></li>
+      </ul>
+    </nav>
+    <div class="img-flex">
+      <img src="images/banner.svg" alt="banner image" role="img" aria-label="banner image">
+    </div>
+    <hr>
+  </header>
 
+  <main role="main" id="main" tabindex="0">
     <div>
       <h2>自然の親密な本質を模倣し、人生の真の意味を発見する。</h2>
       <p>Imitate the intimate essence of nature & discover the true meaning of life.</p>
