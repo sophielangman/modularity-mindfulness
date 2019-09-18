@@ -2,3 +2,58 @@ html {
   font-family: "Noto Sans", sans-serif;
   color: #000;
 }
+
+.nav {
+  text-decoration: none;
+  color: #005e76;
+  border-color: #8bc9d9;
+  border-width: 3px;
+  border-style: solid;
+  border-top: 0;
+  border-right: 0;
+  border-left: 0;
+}
+
+.nav:hover {
+  border-color: #000;
+  color: #000;
+}
+
+a {
+  text-decoration: none;
+  color: #005e76;
+}
+
+.btn-ghost {
+  background-color: #fff;
+  border-color: #8bc9d9;
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 5px;
+}
+
+.btn-ghost:hover {
+  background-color: #8bc9d9;
+  border-color: #0084a6;
+}
+
+footer {
+  border-color: #e2e2e2;
+  border-width: 2px;
+  border-style: solid;
+  border-right: 0;
+  border-left: 0;
+  border-bottom: 0;
+}
+
+.blue {
+  color: #005e76;
+}
+
+.text {
+  border-color: #e2e2e2;
+  border-width: 3px;
+  border-style: solid;
+  border-right: 0;
+  border-left: 0;
+}
